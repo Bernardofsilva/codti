@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EASYMEI - Vídeos sobre Impostos MEI</title>
+    <link rel="stylesheet" href="a.css">
+</head>
+<body>
+    <header>
+        <h1>EASYMEI</h1>
+        <p>Aprenda sobre impostos e obrigações do MEI com vídeos educativos!</p>
+    </header>
+
+    <main>
+        <div class="video-container" id="videoContainer">
+            <!-- Vídeo 1: Novo vídeo MEI -->
+            <div class="video-card">
+                <div class="video-wrapper">
+                    <iframe 
+                        src="https://www.youtube.com/embed/B52fufZKOAM" 
+                        title="MEI - Microempreendedor Individual" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="video-description">
+                    <h3>MEI - Microempreendedor Individual Completo</h3>
+                    <p>Guia completo sobre o Microempreendedor Individual. Aprenda tudo sobre abertura, obrigações, benefícios e como manter seu MEI regularizado de forma simples e prática.</p>
+                </div>
+                <button class="delete-btn" onclick="deleteVideo(this)" title="Excluir vídeo">
+                    🗑️
+                </button>
+            </div>
+
+            <!-- Vídeo 2: Segundo vídeo MEI -->
+            <div class="video-card">
+                <div class="video-wrapper">
+                    <iframe 
+                        src="https://www.youtube.com/embed/sfn_a24uLz0" 
+                        title="Impostos e Obrigações MEI" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="video-description">
+                    <h3>Impostos e Obrigações do MEI</h3>
+                    <p>Entenda todos os impostos e obrigações do Microempreendedor Individual. Saiba como calcular o DAS-MEI, prazos de pagamento e como evitar problemas com a Receita Federal.</p>
+                </div>
+                <button class="delete-btn" onclick="deleteVideo(this)" title="Excluir vídeo">
+                    🗑️
+                </button>
+            </div>
+
+            <!-- Vídeo 3: Terceiro vídeo MEI -->
+            <div class="video-card">
+                <div class="video-wrapper">
+                    <iframe 
+                        src="https://www.youtube.com/embed/VflHB6DXdA0" 
+                        title="Declaração e Faturamento MEI" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="video-description">
+                    <h3>Declaração e Controle de Faturamento MEI</h3>
+                    <p>Aprenda como fazer a declaração anual do MEI e controlar seu faturamento. Dicas importantes para manter o limite de receita e cumprir todas as obrigações fiscais.</p>
+                </div>
+                <button class="delete-btn" onclick="deleteVideo(this)" title="Excluir vídeo">
+                    🗑️
+                </button>
+            </div>
+        </div>
+
+        <div class="add-video-section">
+            <button id="addVideoBtn" class="add-video-btn">
+                ➕ Adicionar Vídeo do YouTube
+            </button>
+            
+            <div id="addVideoForm" class="add-video-form hidden">
+                <h3>Adicionar Novo Vídeo sobre MEI</h3>
+                <input 
+                    type="text" 
+                    id="videoUrl" 
+                    placeholder="Cole o link do YouTube aqui..." 
+                    class="video-input"
+                >
+                <input 
+                    type="text" 
+                    id="videoTitle" 
+                    placeholder="Título do vídeo..." 
+                    class="video-input"
+                >
+                <textarea 
+                    id="videoDescription" 
+                    placeholder="Descrição do vídeo..." 
+                    class="video-textarea"
+                    rows="3"
+                ></textarea>
+                <div class="form-buttons">
+                    <button id="confirmAdd" class="confirm-btn">Adicionar</button>
+                    <button id="cancelAdd" class="cancel-btn">Cancelar</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 EASYMEI - Educação sobre impostos MEI - Desenvolvido com HTML, CSS e JavaScript</p>
+    </footer>
+
+    <script src="a.js"></script>
+</body>
+</html>
+
