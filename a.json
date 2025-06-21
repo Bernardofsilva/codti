@@ -1,0 +1,77 @@
+{
+  "conteudoMEI": [
+    {
+      "id": "o-que-e-mei",
+      "titulo": "O que é MEI?",
+      "descricao": "O Microempreendedor Individual (MEI) é uma modalidade empresarial criada para formalizar pequenos negócios. É destinado a pessoas que trabalham por conta própria e querem se tornar empreendedores legalizados.",
+      "topicos": [
+        "Faturamento máximo de R$ 81.000,00 por ano",
+        "Pode ter apenas 1 funcionário",
+        "Mais de 400 atividades permitidas",
+        "Processo de abertura 100% online e gratuito"
+      ]
+    },
+    {
+      "id": "quem-pode-ser-mei",
+      "titulo": "Quem pode ser MEI?",
+      "descricao": "Podem se tornar MEI pessoas que trabalham por conta própria em atividades permitidas pela legislação e que não possuem sociedade em outras empresas.",
+      "topicos": [
+        "Brasileiros maiores de 18 anos",
+        "Estrangeiros com visto permanente",
+        "Não pode ser sócio de outra empresa",
+        "Não pode ser funcionário público federal",
+        "Deve exercer atividade permitida para MEI"
+      ]
+    },
+    {
+      "id": "obrigacoes-mei",
+      "titulo": "Obrigações do MEI",
+      "descricao": "Como MEI, você tem algumas obrigações simples que devem ser cumpridas para manter sua empresa regularizada.",
+      "topicos": [
+        "Pagar o DAS-MEI mensalmente até o dia 20",
+        "Fazer a Declaração Anual (DASN-SIMEI)",
+        "Manter relatório mensal de receitas",
+        "Emitir nota fiscal quando solicitado",
+        "Guardar notas fiscais de compras"
+      ]
+    },
+    {
+      "id": "beneficios-mei",
+      "titulo": "Benefícios do MEI",
+      "descricao": "Ser MEI oferece diversos benefícios tanto para formalização do negócio quanto para direitos previdenciários.",
+      "topicos": [
+        "CNPJ gratuito para abrir conta empresarial",
+        "Aposentadoria por idade ou invalidez",
+        "Auxílio-doença e salário-maternidade",
+        "Pensão por morte para família",
+        "Acesso a crédito empresarial",
+        "Emissão de nota fiscal"
+      ]
+    },
+    {
+      "id": "impostos-mei",
+      "titulo": "Impostos e Contribuições",
+      "descricao": "O MEI paga uma quantia fixa mensal através do DAS-MEI, que inclui todos os impostos e contribuições necessários.",
+      "topicos": [
+        "Valor fixo mensal (DAS-MEI)",
+        "Inclui INSS, ICMS e/ou ISS",
+        "Pagamento até o dia 20 de cada mês",
+        "Valores atualizados anualmente",
+        "Sem necessidade de contador"
+      ]
+    },
+    {
+      "id": "como-abrir-mei",
+      "titulo": "Como abrir MEI",
+      "descricao": "O processo de abertura do MEI é simples, rápido e pode ser feito totalmente online através do Portal do Empreendedor.",
+      "topicos": [
+        "Acesse o Portal do Empreendedor",
+        "Tenha CPF e título de eleitor em mãos",
+        "Escolha a atividade principal",
+        "Preencha os dados pessoais e do negócio",
+        "Receba o CNPJ na hora"
+      ]
+    }
+  ]
+}
+

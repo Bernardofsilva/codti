@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal MEI - Informações e Ferramentas</title>
+    <link rel="stylesheet" href="b.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Portal MEI</h1>
+            <p>Informações e ferramentas para Microempreendedores Individuais</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#links-educativos">Links Educativos</a></li>
+                <li><a href="#conteudo-mei">Sobre MEI</a></li>
+                <li><a href="#verificador">Verificador Gov.br</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <!-- Seção de Links Educativos -->
+        <section id="links-educativos" class="section">
+            <h2>Links Educativos</h2>
+            <div class="links-grid">
+                <div class="link-card">
+                    <h3>O que é MEI?</h3>
+                    <p>Entenda o conceito de Microempreendedor Individual e como funciona esta modalidade empresarial simplificada.</p>
+                    <a href="https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/quero-ser-mei" target="_blank" class="btn-link">Acessar Portal Oficial</a>
+                </div>
+                
+                <div class="link-card">
+                    <h3>Como se tornar MEI</h3>
+                    <p>Passo a passo completo para formalizar seu negócio como Microempreendedor Individual.</p>
+                    <a href="https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/quero-ser-mei/como-se-tornar-mei" target="_blank" class="btn-link">Ver Tutorial</a>
+                </div>
+                
+                <div class="link-card">
+                    <h3>Impostos para MEI</h3>
+                    <p>Saiba quais impostos o MEI deve pagar, valores e prazos de pagamento do DAS-MEI.</p>
+                    <a href="https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/quero-ser-mei/impostos-mei" target="_blank" class="btn-link">Entender Impostos</a>
+                </div>
+                
+                <div class="link-card">
+                    <h3>Declaração Anual MEI</h3>
+                    <p>Como fazer a Declaração Anual do Simples Nacional (DASN-SIMEI) corretamente.</p>
+                    <a href="https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/quero-ser-mei/declaracao-anual-mei" target="_blank" class="btn-link">Fazer Declaração</a>
+                </div>
+                
+                <div class="link-card">
+                    <h3>Benefícios Previdenciários</h3>
+                    <p>Conheça os direitos previdenciários do MEI: aposentadoria, auxílio-doença e outros benefícios.</p>
+                    <a href="https://www.gov.br/inss/pt-br/direitos-e-deveres/inscricao-e-contribuicao/mei" target="_blank" class="btn-link">Ver Benefícios</a>
+                </div>
+                
+                <div class="link-card">
+                    <h3>Emissão de Nota Fiscal</h3>
+                    <p>Quando e como emitir nota fiscal sendo MEI. Entenda as obrigações e facilidades.</p>
+                    <a href="https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/quero-ser-mei/nota-fiscal-mei" target="_blank" class="btn-link">Emitir NF</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de Conteúdo sobre MEI -->
+        <section id="conteudo-mei" class="section">
+            <h2>Informações sobre MEI</h2>
+            <div id="mei-content" class="content-grid">
+                <!-- Conteúdo será carregado dinamicamente via JavaScript -->
+            </div>
+        </section>
+
+        <!-- Seção Verificador de URLs do Governo -->
+        <section id="verificador" class="section">
+            <h2>Verificador de Sites do Governo</h2>
+            <div class="verificador-container">
+                <p>Digite uma URL para verificar se é um site oficial do governo brasileiro:</p>
+                <form id="url-form" class="url-form">
+                    <div class="input-group">
+                        <input type="url" id="url-input" placeholder="https://exemplo.gov.br" required>
+                        <button type="submit">Verificar</button>
+                    </div>
+                </form>
+                <div id="resultado" class="resultado"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Portal MEI - Informações educativas sobre Microempreendedor Individual</p>
+        </div>
+    </footer>
+
+    <script src="b.js"></script>
+</body>
+</html>
+
